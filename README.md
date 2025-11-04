@@ -31,3 +31,4 @@ Proyek ini merupakan latihan fullstack sederhana yang terdiri dari frontend meng
 - Auth: JWT, bcrypt
 - Tools: Postman, DBeaver, GitHub
 
+
