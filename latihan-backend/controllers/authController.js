@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const { createUser, findUserByEmail } = require('../models/userModel');
+const { createUser, findUserByEmail, getAllUsers } = require('../models/userModel');
 require('dotenv').config();
 
 exports.register = async (req, res) => {
@@ -31,5 +31,14 @@ exports.login = async (req, res) => {
     res.json({ token });
   } catch {
     res.status(500).json({ message: 'Login gagal' });
+  }
+};
+
+exports.getUsers = async (req, res) => {
+  try {
+    const users = await getAllUsers();
+    res.json(users);
+  } catch (err) {
+    res.status(500).json({ message: 'Gagal mengambil data user' });
   }
 };
