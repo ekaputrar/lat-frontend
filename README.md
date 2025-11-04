@@ -5,8 +5,8 @@ Proyek ini merupakan latihan fullstack sederhana yang terdiri dari frontend meng
 ---
 
 ## 📁 Struktur Proyek
-├── latihan-frontend/ # React App 
-├── latihan-backend/ # Express + PostgreSQL API
+- latihan-frontend/ # React App 
+- latihan-backend/ # Express + PostgreSQL API
 
 ---
 
@@ -26,8 +26,8 @@ Proyek ini merupakan latihan fullstack sederhana yang terdiri dari frontend meng
 ---
 
 ## 🛠️ Tools yang Digunakan
-Frontend: React, Axios
-Backend: Node.js, Express, PostgreSQL
-Auth: JWT, bcrypt
-Tools: Postman, DBeaver, GitHub
+- Frontend: React, Axios
+- Backend: Node.js, Express, PostgreSQL
+- Auth: JWT, bcrypt
+- Tools: Postman, DBeaver, GitHub
 
