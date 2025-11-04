@@ -48,7 +48,12 @@ function Login() {
             />
           </Form.Group>
           <Button type="submit" className="w-100">Login</Button>
-        </Form>
+        </Form><p className="text-center mt-3">
+        Belum punya akun?{' '}
+        <Button variant="link" onClick={() => navigate('/register')}>
+          Daftar di sini
+        </Button>
+      </p>
       </Card>
     </Container>
   );
